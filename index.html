@@ -207,11 +207,7 @@
 
                         <a class="btn btn-primary py-3 px-5 mt-2" href="about.html">مفردات</a>
                         <a class="btn btn-primary py-3 px-5 mt-2" href="#" onclick="openModal()">المادة دراسية</a>
-                        <script src="https://static.elfsight.com/platform/platform.js" async></script>
-
-
- <!-- Tombol untuk membuka modal -->
-
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
 
 <!-- Modal Pop-up -->
 <div id="embedModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; animation: fadeIn 0.3s; z-index: 9999;">
@@ -221,8 +217,7 @@
         
         <!-- Embed konten -->
         <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-8703ea19-7927-4ced-9a75-1fcf5711f8bf"></div>
-        
+        <div class="commonninja_component pid-8703ea19-7927-4ced-9a75-1fcf5711f8bf"></div>
     </div>
 </div>
 
@@ -249,7 +244,16 @@ function closeModal() {
     document.getElementById('embedModal').style.display = 'none';
     document.body.style.overflow = 'auto'; // Mengaktifkan kembali scroll pada halaman saat modal ditutup
 }
+
+// Menutup modal jika klik di luar area modal
+window.onclick = function(event) {
+    var modal = document.getElementById('embedModal');
+    if (event.target == modal) {
+        closeModal();
+    }
+}
 </script>
+
 
 
 
