@@ -207,17 +207,22 @@
 
                         <a class="btn btn-primary py-3 px-5 mt-2" href="about.html">مفردات</a>
                         <a class="btn btn-primary py-3 px-5 mt-2" href="#" onclick="openModal()">المادة دراسية</a>
-<script src="https://static.elfsight.com/platform/platform.js" async></script>
+                        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+
+
+ <!-- Tombol untuk membuka modal -->
+
 
 <!-- Modal Pop-up -->
 <div id="embedModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; animation: fadeIn 0.3s; z-index: 9999;">
     <div style="position:relative; margin:auto; padding:20px; background:#ffffff; width:100%; max-width:800px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.2); animation: slideIn 0.3s;">
         <!-- Tombol untuk menutup modal -->
-        <button onclick="closeModal()" style="position:absolute; top:5px; right:5px; background:none; border:none; font-size:20px; cursor:pointer;">&times;</button>
+        <button onclick="closeModal()" style="position:absolute; top:0px; right:5px; background:none; border:none; font-size:20px; cursor:pointer;">&times;</button>
         
         <!-- Embed konten -->
         <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-        <div class="commonninja_component pid-8703ea19-7927-4ced-9a75-1fcf5711f8bf"></div>
+<div class="commonninja_component pid-8703ea19-7927-4ced-9a75-1fcf5711f8bf"></div>
+        
     </div>
 </div>
 
@@ -244,16 +249,7 @@ function closeModal() {
     document.getElementById('embedModal').style.display = 'none';
     document.body.style.overflow = 'auto'; // Mengaktifkan kembali scroll pada halaman saat modal ditutup
 }
-
-// Menutup modal jika klik di luar area modal
-window.onclick = function(event) {
-    var modal = document.getElementById('embedModal');
-    if (event.target == modal) {
-        closeModal();
-    }
-}
 </script>
-
 
 
 
@@ -367,42 +363,44 @@ window.onclick = function(event) {
 
     <!-- Categories Start -->
     <div id="ai-section" class="text-center wow fadeInUp">
-    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-        <h6 class="section-title bg-white text-center text-primary px-3">AlifBot</h6>
-        <h1 class="mb-5">لا تتردد في طرح الأسئلة على ألف باث—نحن هنا لمساعدتك!</h1>
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">AlifBot</h6>
+            <h1 class="mb-5">لا تتردد في طرح الأسئلة على ألف باث—نحن هنا لمساعدتك!</h1>
+        </div>
+        <div id="pickaxe-input-box-Hai_selamat_datang_di_Alifbot_YIJ06" style="width: 60%; margin: 0 auto;">
+            <script>
+                window.PICKAXE = window.PICKAXE || { pickaxes: [], style: "kHsjoCQGgI0GWASmgIdIA2CHA0wGQyCwBQBUiEBzQQC+EgGQwgMA3gLICDMAoAnQgvFSCsUIPQYgIHqAEw4NXUgIz6DFQ4OkwghP2AGnoMFJgKAFA8gEA4QAI9gVPBABGqBU3gAggTUBAUQ6ApYkAAgIFMxwLcKgRvlAhyyAIG8DFAoAF1QOTugMODACreB2osAqaIBABQAAGgaINAr0OASwUCiIQGBARk6AUOiAo9GAq6qAZUKAAkOAhKAAoIBDz4AAB4CkT4AR8YCSIYBygIASwoDgAoCTBoCTQIDT04B01oBj1IBDAYD1o4BWNYD2rIAztoCXQoCAl4BTgYA3xIBzw4CysoB4h4B20YBY84BqooB0l4AFGYAZ9YBCGIC2GoDRJ4A42oC0N4AEG4CEiIBA2YBAxIA0wYAMt4BOIIDECIAFS4ACJIALYICXQIAXh4AMX4Ab+IBgR4AeAYAmBYCpWoDhQAAZABTADIFgABgQCyQIABZEAAAyACZRAMpdgFRAABAgAPXwAZgIBuokAdEiAKLDACEogESiQAqEoBqL0Ax4iAJBHACWRgADmwDpsIAAm0Ak8WAB4zAGIjgBzQwDjIYBOI0APSGAGkZAAh5AGbACBKgAYDQCBxIBKLMARaKAG1JAH45gCUyQBpwIAop8A1N2ATLpAMXQgGECQDzAoAQ9UABFOAKIvAIKZgAwTAAQgEBdQCADIBviMAc76AGWnAFvQgGCgwAXBIB9CUA9fqAETBAKaNgAU/QB27IA67MAsRiAGW9AAwkgGBUQAMi4BmQEAAGaAABxAECIgFllwA5jIBehUAcVyAforAAutgAJswCHGoAeCUAps+ANlbAJTfgFaSQAMXoBGF0A5YyAB5dAKgkgCqtQCsgYAqhcAKguAPA8ACSASERAMBugATBQA+G4BMU8AF/GASA1AFclgDgTwBzOYAEL0AuueAVBLAAaggE1gQAQcoAftcAc/SAAepAAARgBiLwCpzIAiR0AqHOAApbgAVFoArICAGTngCHv4A6M2AMg7gAIvYA6qSABhGgCKaoAJsGAG2XgARRgAAEAA==="};
+                window.PICKAXE.pickaxes.push({ id: "Hai_selamat_datang_di_Alifbot_YIJ06", type: "input-box" });
+                
+                const { id: _fid } = window.PICKAXE.pickaxes[0];
+                
+                fetch(`https://embed.pickaxeproject.com/axe/api/script/${_fid}`)
+                    .then(response => response.json())
+                    .then(({ v: version }) => {
+                        const scriptURL = `https://cdn.jsdelivr.net/gh/pickaxeproject/cdn@${version}/dist`;
+                        
+                        // Load bundle.js if not already loaded
+                        if (!document.querySelector(`script[src="${scriptURL}/bundle.js"]`)) {
+                            const scriptElement = document.createElement("script");
+                            scriptElement.src = `${scriptURL}/bundle.js`;
+                            scriptElement.defer = true;
+                            document.head.appendChild(scriptElement);
+                        }
+                        
+                        // Load styles.css if not already loaded
+                        if (!document.querySelector(`link[href="${scriptURL}/styles.css"]`)) {
+                            const styleElement = document.createElement("link");
+                            styleElement.href = `${scriptURL}/styles.css`;
+                            styleElement.rel = "stylesheet";
+                            styleElement.type = "text/css";
+                            document.head.appendChild(styleElement);
+                        }
+                    });
+            </script>
+        </div>
     </div>
-    <div id="AlifBot_QJOLG" style="width: 60%; margin: 0 auto;">
-        <script>
-            window.PICKAXE = window.PICKAXE || { pickaxes: [] };
-            window.PICKAXE.pickaxes.push({ id: "AlifBot_QJOLG", type: "input-box" });
-            
-            const { id: _fid } = window.PICKAXE.pickaxes[0];
-            
-            fetch(`https://embed.pickaxeproject.com/axe/api/script/${_fid}`)
-                .then(response => response.json())
-                .then(({ v: version }) => {
-                    const scriptURL = `https://cdn.jsdelivr.net/gh/pickaxeproject/cdn@${version}/dist`;
-                    
-                    // Load bundle.js if not already loaded
-                    if (!document.querySelector(`script[src="${scriptURL}/bundle.js"]`)) {
-                        const scriptElement = document.createElement("script");
-                        scriptElement.src = `${scriptURL}/bundle.js`;
-                        scriptElement.defer = true;
-                        document.head.appendChild(scriptElement);
-                    }
-                    
-                    // Load styles.css if not already loaded
-                    if (!document.querySelector(`link[href="${scriptURL}/styles.css"]`)) {
-                        const styleElement = document.createElement("link");
-                        styleElement.href = `${scriptURL}/styles.css`;
-                        styleElement.rel = "stylesheet";
-                        styleElement.type = "text/css";
-                        document.head.appendChild(styleElement);
-                    }
-                });
-        </script>
-    </div>
-    </div>
+        
+    
 
     <!-- Courses Start -->
  <div id="soal" class="container-xxl py-5">
@@ -618,28 +616,26 @@ window.onclick = function(event) {
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item text-center pt-3">
                         <h2>غرفة الترفيه</h2>
-                        <a href="https://www.google.com/search?q=gartic&sca_esv=c263faa809bdb49e&sxsrf=ADLYWIJNnOSXq2gIkVHlNF9vK7jc_x6JzA%3A1730929355415&ei=y-IrZ9uKGbeXseMPqNS7kQg&ved=0ahUKEwibnPGq1siJAxW3S2wGHSjqLoIQ4dUDCA8&uact=5&oq=gartic&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmdhcnRpYzINEC4YgAQYsQMYQxiKBTIIEAAYgAQYywEyChAAGIAEGEMYigUyCBAuGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMgUQABiABDIFEAAYgAQyCBAAGIAEGMsBMhwQLhiABBixAxhDGIoFGJcFGNwEGN4EGOAE2AEBSMATUABYhwxwAHgBkAEAmAF6oAG7BKoBAzQuMrgBA8gBAPgBAZgCBqAChQXCAgQQIxgnwgIKECMYgAQYJxiKBcICCxAAGIAEGJECGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICEBAAGIAEGLEDGEMYgwEYigXCAggQABiABBixA8ICCxAAGIAEGLEDGIMBwgIOEC4YgAQYsQMY0QMYxwHCAg4QLhiABBixAxiDARiKBcICChAAGIAEGBQYhwLCAggQLhiABBixA8ICChAuGIAEGEMYigXCAgsQLhiABBjHARivAcICChAAGIAEGAoYywGYAwC6BgYIARABGBSSBwMyLjSgB6dA&sclient=gws-wiz-serp"target="_blank">وقت للاسترخاء والاستمتاع بالمرح معًا
+                        وقت للاسترخاء والاستمتاع بالمرح معًا
                             <div class="p-4">
                                 <i class="fa fa-3x text-primary mb-4">
                                     <img src="img/freepik__background__83762-modified.png" height="90px" width="90" alt="" >
                                 </i>
-                                <h5 class="mb-3">هيا لنلعب! في هذه الغرفة، يمكنك الاستمتاع بألعاب التخمين وتنمية إبداعك</h5>
+                                <h5 class="mb-3">هيا لنلعب! في هذه الغرفة، يمكنك الاستمتاع بألعاب التخمين وتنمية إبداعك https://qrco.de/bfXqy2 </h5>
                             </div>
-                        </a>
+                        
                         
                     </div>
                 </div>
 
-
-
-               
+                <script src="https://app.contactbutton.com/script/e7299ff0f7c091d067f5c8af4f41d624" async="async"></script>
                 
             </div>
         </div>
     </div>
     
     
-    <!-- Team Start -->
+    <!-- 
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -721,13 +717,14 @@ window.onclick = function(event) {
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Team End -->
+    </div> 
+    
+    Team Start -->
 
 
     <!-- Testimonial Start -->
     
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <!--  <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
                 <h6 class="section-title bg-white text-center text-primary px-3">Contoh Testimonial</h6>
@@ -769,6 +766,7 @@ window.onclick = function(event) {
             </div>
         </div>
     </div>
+    -->
     
  
     <!-- Testimonial End -->
